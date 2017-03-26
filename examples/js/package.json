@@ -1,0 +1,31 @@
+{
+  "name": "focus-nko-example",
+  "version": "1.0.0",
+  "description": "Пример использования API focus-nko.org",
+  "main": "index.js",
+  "scripts": {
+    "start":"babel-node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/focus-nko/focus-nko.org.git"
+  },
+  "keywords": [
+    "NGO",
+    "NKO",
+    "HKO"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/focus-nko/focus-nko.org/issues"
+  },
+  "homepage": "https://github.com/focus-nko/focus-nko.org#readme",
+  "dependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "parse": "^1.9.2"
+  }
+}
