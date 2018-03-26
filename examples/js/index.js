@@ -5,7 +5,7 @@ import Parse from 'parse/node';
 //Application ID. Just copy\paste
 Parse.initialize('6560c5dc08c1183df489d6832fe1fb3a');
 //Server URL;
-Parse.serverURL = 'http://focus-nko.org/api/parse';
+Parse.serverURL = 'https://focus-nko.org/api/parse';
 
 //API accessible only to authenticated user. Parse.become(<session token>) will login you;
 //You can get session token by requesting it in chat;
